@@ -10,7 +10,7 @@ const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { footer } = menu;
   return (
-    <footer className="section bg-theme-light pb-0">
+    <footer className="section bg-[#FCE0D6] pb-0">
       <div className="container">
         {/* footer menu */}
         <div className="row">
@@ -33,7 +33,7 @@ const Footer = () => {
           {/* social icons */}
           <div className="md-12 sm:col-6 lg:col-3">
             <Link href="/" aria-label="ApiLatte">
-              <span className="text-[#0AA8A7] text-2xl">ApiLatte</span>
+              <span className="text-[#F26938] text-2xl">ApiLatte</span>
             </Link>
             {markdownify(footer_content, "p", "mt-3 mb-6")}
             <Social source={social} className="social-icons mb-8" />

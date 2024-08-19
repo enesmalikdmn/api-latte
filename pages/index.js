@@ -45,7 +45,7 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* Features */}
-      <section className="section bg-theme-light">
+      <section className="section bg-[#FCE0D6]">
         <div className="container">
           <div className="text-center">
             <h2>{markdownify(feature.title)}</h2>
@@ -81,7 +81,7 @@ const Home = ({ frontmatter }) => {
         return (
           <section
             key={`service-${index}`}
-            className={`section ${isOdd && "bg-theme-light"}`}
+            className={`section ${isOdd && "bg-[#FCE0D6]"}`}
           >
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
@@ -118,11 +118,11 @@ const Home = ({ frontmatter }) => {
                   {service.button.enable && (
                     <Link
                       href={service?.button.link}
-                      className="cta-link inline-flex items-center text-primary"
+                      className="cta-link inline-flex items-center text-[#F26938]"
                     >
                       {service?.button.label}
                       <Image
-                        className="ml-1"
+                        className="ml-1 color-[#F26938]"
                         src="/images/arrow-right.svg"
                         width={18}
                         height={14}
