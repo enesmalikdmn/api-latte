@@ -3,10 +3,10 @@ title: "Contact Us"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Get Started Today!
+  description: Share your email with us, and we'll reach out within hours to gather a few details to tailor the perfect API solution for you. Your journey to seamless integration begins here—let’s create something exceptional together.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@ApiLatte.com](mailto:info@ApiLatte.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "phone: +90 232 678 34 60"
+    - "Mail: [info@apilatte.com](mailto:info@apilatte.com)"
+    - "Address: Bornova / İzmir"
 ---

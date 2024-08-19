@@ -24,7 +24,7 @@ const Header = () => {
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0">
-          <h1 className="text-[#0AA8A7] text-2xl">ApiLatte</h1>
+          <Link href={'/'} className="text-[#0AA8A7] text-2xl cursor-pointer">ApiLatte</Link>
         </div>
 
         {/* navbar toggler */}
