@@ -3,8 +3,8 @@ title: Pricing
 layout: pricing
 draft: false
 plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
+- title: Package 1
+  subtitle: 
   price: 49
   type: month
   features:
@@ -15,7 +15,7 @@ plans:
     label: Get started for free
     link: "/contact"
 
-- title: Professional Plan
+- title: Package 2
   subtitle: Best For Professionals
   price: 69
   type: month
@@ -30,7 +30,7 @@ plans:
     label: Get started
     link: "/contact"
 
-- title: Business Plan
+- title: Package 3
   subtitle: Best For Large Individuals
   price: 99
   type: month
