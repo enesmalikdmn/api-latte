@@ -10,7 +10,7 @@ const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { footer } = menu;
   return (
-    <footer className="section bg-[#FCE0D6] pb-0">
+    <footer className="section bg-[#F6E1CE] pb-0">
       <div className="container">
         {/* footer menu */}
         <div className="row">

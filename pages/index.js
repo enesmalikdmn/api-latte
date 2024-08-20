@@ -45,7 +45,7 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* Features */}
-      <section className="section bg-[#FCE0D6]">
+      <section className="section bg-[#F6E1CE]">
         <div className="container">
           <div className="text-center">
             <h2>{markdownify(feature.title)}</h2>
@@ -81,7 +81,7 @@ const Home = ({ frontmatter }) => {
         return (
           <section
             key={`service-${index}`}
-            className={`section ${isOdd && "bg-[#FCE0D6]"}`}
+            className={`section ${isOdd && "bg-[#F6E1CE]"}`}
           >
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
