@@ -77,7 +77,7 @@ services:
 # workflow
 workflow: 
   title: "Der einfachste Weg, APIs zu entwickeln"
-  image: "/images/banner.svg"
+  image: "/images/banner.webp"
   description: ""
 
 # call_to_action
