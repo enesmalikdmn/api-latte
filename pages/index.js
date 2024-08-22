@@ -138,7 +138,7 @@ const Home = ({ frontmatter }) => {
       })}
 
       {/* workflow */}
-      <section className="section pb-0">
+      <section className="section flex flex-col items-center pb-0">
         <div className="mb-8 text-center">
           {markdownify(
             workflow.title,
@@ -150,8 +150,8 @@ const Home = ({ frontmatter }) => {
         <Image
           src={workflow.image}
           alt="workflow image"
-          width={1920}
-          height={296}
+          width={1296}
+          height={200}
         />
       </section>
 
